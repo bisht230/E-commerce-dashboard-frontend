@@ -1,0 +1,183 @@
+* {
+  color: #fff;
+  background-color: black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nav-ul{
+  /* background-color: rgb(86, 185, 224); */
+  margin: 0;
+  text-align: left;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.nav-ul li{
+    display:inline-block;
+    padding: 10px;
+}
+.nav-ul li a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+.footer{
+  position:absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  /* background-color: rgb(86, 185, 224); */
+  color: #fff;
+  text-transform: capitalize;
+}
+.signUpText{
+  color: #fff;
+}
+.main-container{
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 3rem;
+}
+.inputBox {
+  color: #fff;
+  display: block;
+  margin: 22px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+.login {
+  color:#fff;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  
+}
+.nav-right{
+  flex-direction: row-reverse;
+}
+.invalid{
+     color: red;
+    margin-top: -1rem;
+}
+.main-container-2{
+  position: fixed;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width:100%
+}
+.productListing{
+  margin: 0;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.productListing li{
+  border: 1px solid skyblue;
+  display:inline-block;
+  text-align: center;
+  padding: 10px;
+  width:100%;
+}
+.delete-button{
+  border: 1.5px solid black;
+  margin-right: 1rem;
+   border-radius: 14px;
+   padding: 0px;
+   width: 60px;
+   cursor: pointer;
+   font-weight: 600;
+   color: #fff;
+   text-align:center;
+   border: none;
+   background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.delete-button:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.delete-button {
+  background-image: linear-gradient(to right, #ec1a36, #e44048, #f0474f, #e70c0c);
+  /* box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75); */
+}
+.signUp-button{
+   border: 1.5px solid black;
+   margin: 22px;
+   border-radius: 18px;
+   padding: 8px;
+   width: 120px;
+   cursor: pointer;
+   font-weight: 600;
+   color: #fff;
+   text-align:center;
+   border: none;
+   background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.signUp-button:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.signUp-button {
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  /* box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75); */
+}
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
