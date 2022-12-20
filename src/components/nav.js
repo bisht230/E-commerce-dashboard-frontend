@@ -17,13 +17,14 @@ const Nav = () => {
             {/* <li><Link to="/profile">Profile</Link></li> */}
             <li><Link to="/login" onClick={logout}>Logout ({JSON.parse(auth).name})</Link></li>
         </ul>
-        :
+         :
         <ul className='nav-ul nav-right'>
             <li><Link to='/signUp'>Sign Up</Link></li>
             <li><Link to='/login'>Login</Link></li>
 
         </ul>
       }
+
     </div>
   )
 }
