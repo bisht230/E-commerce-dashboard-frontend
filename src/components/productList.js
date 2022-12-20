@@ -54,7 +54,7 @@ const ProductList = () => {
         <ul className='productListing' key={item._id}>
             <li>{index + 1}</li>
             <li>{item.name}</li>
-            <li>{item.price} ₹</li>
+            <li>₹ {item.price}</li>
             <li>{item.category}</li>
             <li>{item.company}</li>
             <li>
